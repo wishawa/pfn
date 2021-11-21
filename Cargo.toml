@@ -1,0 +1,15 @@
+[package]
+name = "pfn"
+version = "0.1.0"
+edition = "2021"
+authors = ["Wisha Wa <wisha.wa@yandex.com>"]
+license = "MPL-2.0"
+
+description = "Provide fn_trait's `call`, `call_mut`, and `call_once` on Stable Rust."
+readme = "README.md"
+documentation = "https://docs.rs/pfn"
+repository = "https://github.com/wishawa/pfn"
+keywords = ["fn_trait", "polyfill", "variadic"]
+categories = ["rust-patterns"]
+
+[dependencies]
